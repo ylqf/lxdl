@@ -6,6 +6,8 @@
 
 	<style type="text/css">
 
+.logo { width:1300px;height:100px;border:0px solid #000; text-align:center;}
+
       /*  body{TEXT-ALIGN: center;}*/
 
         #shuru{
@@ -15,7 +17,7 @@
             bottom:0;
             right:0;
             width:50%;
-            height:50%;
+            height:30%;
             margin:auto;
             border:0px solid;
             text-align: center;
@@ -44,6 +46,12 @@
 </div>
 -->
 
+<br/>
+<br/>
+<br/>
+<div class="logo">
+<img src="/www/logo/logo.png"  alt="logo.png" />
+</div>
 
     <div id="shuru">
         <form method="post" action="/download/">
@@ -54,6 +62,7 @@
         </form>
 <br/><br/><br/>
 
+<br/>
         <div id="box">
 
             目前服务上文件列表：<br/><br/>
