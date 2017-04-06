@@ -58,7 +58,7 @@
 
             目前服务上文件列表：<br/><br/>
             <?php foreach ($file_list as $file){ ?>
-                <a href='http://test.com/www/files/<?php echo $file[0] ?> '>
+                <a href='http://www.lxdl.tk/www/files/<?php echo $file[0] ?> '>
 
                     <?php echo $file[0] ?>
 
@@ -71,7 +71,7 @@
         </div>
 
         <script>
-            document.getElementById('box').innerHTML = document.getElementById('box').innerHTML.replace(/test.com/g, host)
+            document.getElementById('box').innerHTML = document.getElementById('box').innerHTML.replace(/www.lxdl.tk/g, host)
         </script>
     </div>
 

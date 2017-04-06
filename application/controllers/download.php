@@ -16,7 +16,7 @@ class Download extends CI_Controller{
         $url = $this->input->post("url");
         $this->get_file($url, SAVE_PATH);
         //$this->load->view("home");
-        redirect('http://dl.test.com/', 'location');
+        redirect('http://www.lxdl.tk/', 'location');
 
     }
 
