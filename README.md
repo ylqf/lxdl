@@ -15,3 +15,7 @@
 http://www.lxdl.tk
 
 每个文件大小限为10M
+
+# 示例图
+
+![test.jpg](https://raw.githubusercontent.com/zuolinux/lxdl/master/www/logo/test.jpg)
