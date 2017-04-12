@@ -56,8 +56,8 @@ class Download extends CI_Controller{
         $filename = str_replace("/", "", $tmp1);
 
         //修改临时文件名为下载资源的文件名
-        //chmod($tmp_filename, 0777);
-        //rename($tmp_filename, SAVE_PATH . $filename);
+        chmod($tmp_filename, 0777);
+        rename($tmp_filename, SAVE_PATH . $filename);
 
         curl_close($ch);
 

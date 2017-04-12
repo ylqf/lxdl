@@ -51,6 +51,7 @@
 <br/>
 <div class="logo">
 <img src="/www/logo/logo.png"  alt="logo.png" />
+<a href="https://github.com/zuolinux/lxdl" target="_blank">github</a>
 </div>
 
     <div id="shuru">
@@ -65,7 +66,7 @@
 <br/>
         <div id="box">
 
-            目前服务上文件列表：<br/><br/>
+            目前服务器上文件列表：<br/><br/>
             <?php foreach ($file_list as $file){ ?>
                 <a href='http://www.lxdl.tk/www/files/<?php echo $file[0] ?> '>
 
